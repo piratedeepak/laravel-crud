@@ -1,1 +1,446 @@
-{"collection":{"info":{"_postman_id":"e2e1bf77-658a-4fca-8c53-4385ffc02d59","name":"TestTask","schema":"https://schema.getpostman.com/json/collection/v2.1.0/collection.json","updatedAt":"2024-04-25T18:29:22.000Z","uid":"18595901-e2e1bf77-658a-4fca-8c53-4385ffc02d59","createdAt":null,"lastUpdatedBy":null},"item":[{"name":"All Users","id":"dc7467f1-1d38-467b-b967-c1071e8297be","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"GET","header":[],"url":{"raw":"{{baseUrl}}/user","host":["{{baseUrl}}"],"path":["user"]}},"response":[{"id":"386a2f57-60f5-4eb1-852f-4cd03d59337d","name":"Success","originalRequest":{"method":"GET","header":[],"url":{"raw":"{{baseUrl}}/user","host":["{{baseUrl}}"],"path":["user"]}},"status":"OK","code":200,"_postman_previewlanguage":"json","header":[{"key":"Host","value":"127.0.0.1:8000"},{"key":"Connection","value":"close"},{"key":"X-Powered-By","value":"PHP/8.2.18"},{"key":"Cache-Control","value":"no-cache, private"},{"key":"Date","value":"Thu, 25 Apr 2024 18:19:42 GMT"},{"key":"Content-Type","value":"application/json"},{"key":"Access-Control-Allow-Origin","value":"*"}],"cookie":[],"responseTime":null,"body":"[\n    {\n        \"id\": 11,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io2@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:13:08.000000Z\",\n        \"updated_at\": \"2024-04-25T18:13:08.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 3,\n                \"user_id\": 11,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:13:08.000000Z\",\n                \"updated_at\": \"2024-04-25T18:13:08.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 12,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io4@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:15:05.000000Z\",\n        \"updated_at\": \"2024-04-25T18:15:05.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 4,\n                \"user_id\": 12,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:15:05.000000Z\",\n                \"updated_at\": \"2024-04-25T18:15:05.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 13,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io5@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:15:55.000000Z\",\n        \"updated_at\": \"2024-04-25T18:15:55.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 5,\n                \"user_id\": 13,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:15:55.000000Z\",\n                \"updated_at\": \"2024-04-25T18:15:55.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 14,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io7@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:16:38.000000Z\",\n        \"updated_at\": \"2024-04-25T18:16:38.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 6,\n                \"user_id\": 14,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:16:38.000000Z\",\n                \"updated_at\": \"2024-04-25T18:16:38.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 15,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io8@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:16:51.000000Z\",\n        \"updated_at\": \"2024-04-25T18:16:51.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 7,\n                \"user_id\": 15,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:16:51.000000Z\",\n                \"updated_at\": \"2024-04-25T18:16:51.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 16,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io234@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:17:19.000000Z\",\n        \"updated_at\": \"2024-04-25T18:17:19.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 8,\n                \"user_id\": 16,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:17:19.000000Z\",\n                \"updated_at\": \"2024-04-25T18:17:19.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 17,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io235@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:17:32.000000Z\",\n        \"updated_at\": \"2024-04-25T18:17:32.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 9,\n                \"user_id\": 17,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:17:32.000000Z\",\n                \"updated_at\": \"2024-04-25T18:17:32.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 18,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io21@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:18:11.000000Z\",\n        \"updated_at\": \"2024-04-25T18:18:11.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 10,\n                \"user_id\": 18,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:18:11.000000Z\",\n                \"updated_at\": \"2024-04-25T18:18:11.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 19,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io1345@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:18:28.000000Z\",\n        \"updated_at\": \"2024-04-25T18:18:28.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 11,\n                \"user_id\": 19,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:18:28.000000Z\",\n                \"updated_at\": \"2024-04-25T18:18:28.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 20,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io19876543@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:19:24.000000Z\",\n        \"updated_at\": \"2024-04-25T18:19:24.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 12,\n                \"user_id\": 20,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:19:24.000000Z\",\n                \"updated_at\": \"2024-04-25T18:19:24.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 21,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io13876543@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:19:32.000000Z\",\n        \"updated_at\": \"2024-04-25T18:19:32.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 13,\n                \"user_id\": 21,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:19:32.000000Z\",\n                \"updated_at\": \"2024-04-25T18:19:32.000000Z\"\n            }\n        ]\n    }\n]","uid":"18595901-386a2f57-60f5-4eb1-852f-4cd03d59337d"}],"uid":"18595901-dc7467f1-1d38-467b-b967-c1071e8297be"},{"name":"Add User","id":"14199630-4502-447b-836c-da4c9a5468a9","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"POST","header":[{"key":"Accept","value":"application/json","type":"text"}],"body":{"mode":"raw","raw":"{\n    \"first_name\" : \"Jhon\",\n    \"last_name\" : \"Snow\",\n    \"email\" : \"developer.io13876543@gmail.com\",\n    \"password\" : \"12345678\",\n    \"address\" : \"Temp address\"\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{baseUrl}}/user","host":["{{baseUrl}}"],"path":["user"]}},"response":[{"id":"c34de323-0229-4075-97ad-407ab871bb83","name":"Validation Error","originalRequest":{"method":"POST","header":[{"key":"Accept","value":"application/json","type":"text"}],"body":{"mode":"raw","raw":"{\n    \"first_name\" : \"fsd\",\n    \"last_name\" : \"fsd\",\n    \"email\" : \"fsd\",\n    \"password\" : \"fsd\",\n    \"address\" : \"fsd\"\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{baseUrl}}/user","host":["{{baseUrl}}"],"path":["user"]}},"status":"Unprocessable Content","code":422,"_postman_previewlanguage":"json","header":[{"key":"Host","value":"127.0.0.1:8000"},{"key":"Connection","value":"close"},{"key":"X-Powered-By","value":"PHP/8.2.18"},{"key":"Cache-Control","value":"no-cache, private"},{"key":"Date","value":"Thu, 25 Apr 2024 17:53:35 GMT"},{"key":"Content-Type","value":"application/json"},{"key":"Access-Control-Allow-Origin","value":"*"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"The email field must be a valid email address. (and 1 more error)\",\n    \"errors\": {\n        \"email\": [\n            \"The email field must be a valid email address.\"\n        ],\n        \"password\": [\n            \"The password field must be at least 8 characters.\"\n        ]\n    }\n}","uid":"18595901-c34de323-0229-4075-97ad-407ab871bb83"}],"uid":"18595901-14199630-4502-447b-836c-da4c9a5468a9"},{"name":"Update User","id":"0a52df32-4117-4fda-84f2-f087698c6ccc","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"PUT","header":[{"key":"Accept","value":"application/json","type":"text"}],"body":{"mode":"raw","raw":"{\n    \"first_name\" : \"Manish\",\n    \"last_name\" : \"Snow\",\n    \"email\" : \"developer.io13@gmail.com\",\n    \"password\" : \"12345678\",\n    \"address\" : \"Temp address\"\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{baseUrl}}/user/12","host":["{{baseUrl}}"],"path":["user","12"]}},"response":[{"id":"0bacd2d7-d14d-4744-b39d-b66efe8dfcee","name":"Validation Error","originalRequest":{"method":"POST","header":[{"key":"Accept","value":"application/json","type":"text"}],"body":{"mode":"raw","raw":"{\n    \"first_name\" : \"fsd\",\n    \"last_name\" : \"fsd\",\n    \"email\" : \"fsd\",\n    \"password\" : \"fsd\",\n    \"address\" : \"fsd\"\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{baseUrl}}/user","host":["{{baseUrl}}"],"path":["user"]}},"status":"Unprocessable Content","code":422,"_postman_previewlanguage":"json","header":[{"key":"Host","value":"127.0.0.1:8000"},{"key":"Connection","value":"close"},{"key":"X-Powered-By","value":"PHP/8.2.18"},{"key":"Cache-Control","value":"no-cache, private"},{"key":"Date","value":"Thu, 25 Apr 2024 17:53:35 GMT"},{"key":"Content-Type","value":"application/json"},{"key":"Access-Control-Allow-Origin","value":"*"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"The email field must be a valid email address. (and 1 more error)\",\n    \"errors\": {\n        \"email\": [\n            \"The email field must be a valid email address.\"\n        ],\n        \"password\": [\n            \"The password field must be at least 8 characters.\"\n        ]\n    }\n}","uid":"18595901-0bacd2d7-d14d-4744-b39d-b66efe8dfcee"}],"uid":"18595901-0a52df32-4117-4fda-84f2-f087698c6ccc"},{"name":"Delete User","id":"a8010a0e-0eb8-4301-9f91-37fc7b4d8fca","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"DELETE","header":[{"key":"Accept","value":"application/json","type":"text"}],"body":{"mode":"raw","raw":"{\n    \"id\" : 11\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{baseUrl}}/user/11","host":["{{baseUrl}}"],"path":["user","11"]}},"response":[{"id":"37cb5f65-faba-459e-98fb-e00d73158e8c","name":"Validation Error","originalRequest":{"method":"POST","header":[{"key":"Accept","value":"application/json","type":"text"}],"body":{"mode":"raw","raw":"{\n    \"first_name\" : \"fsd\",\n    \"last_name\" : \"fsd\",\n    \"email\" : \"fsd\",\n    \"password\" : \"fsd\",\n    \"address\" : \"fsd\"\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{baseUrl}}/user","host":["{{baseUrl}}"],"path":["user"]}},"status":"Unprocessable Content","code":422,"_postman_previewlanguage":"json","header":[{"key":"Host","value":"127.0.0.1:8000"},{"key":"Connection","value":"close"},{"key":"X-Powered-By","value":"PHP/8.2.18"},{"key":"Cache-Control","value":"no-cache, private"},{"key":"Date","value":"Thu, 25 Apr 2024 17:53:35 GMT"},{"key":"Content-Type","value":"application/json"},{"key":"Access-Control-Allow-Origin","value":"*"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"The email field must be a valid email address. (and 1 more error)\",\n    \"errors\": {\n        \"email\": [\n            \"The email field must be a valid email address.\"\n        ],\n        \"password\": [\n            \"The password field must be at least 8 characters.\"\n        ]\n    }\n}","uid":"18595901-37cb5f65-faba-459e-98fb-e00d73158e8c"}],"uid":"18595901-a8010a0e-0eb8-4301-9f91-37fc7b4d8fca"}],"event":[{"listen":"prerequest","script":{"id":"2094b4ca-3854-432a-9513-43639b69b836","type":"text/javascript","packages":{},"exec":[""]}},{"listen":"test","script":{"id":"ed810a2e-2e63-4289-a204-5b0caf955859","type":"text/javascript","packages":{},"exec":[""]}}],"variable":[{"key":"baseUrl","value":"http://127.0.0.1:8000/api","type":"string"}]}}
+{
+    "collection": {
+        "info": {
+            "_postman_id": "e2e1bf77-658a-4fca-8c53-4385ffc02d59",
+            "name": "TestTask",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "updatedAt": "2024-04-25T18:29:22.000Z",
+            "uid": "18595901-e2e1bf77-658a-4fca-8c53-4385ffc02d59",
+            "createdAt": null,
+            "lastUpdatedBy": null
+        },
+        "item": [
+            {
+                "name": "All Users",
+                "id": "dc7467f1-1d38-467b-b967-c1071e8297be",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{baseUrl}}/users",
+                        "host": [
+                            "{{baseUrl}}"
+                        ],
+                        "path": [
+                            "users"
+                        ]
+                    }
+                },
+                "response": [
+                    {
+                        "id": "386a2f57-60f5-4eb1-852f-4cd03d59337d",
+                        "name": "Success",
+                        "originalRequest": {
+                            "method": "GET",
+                            "header": [],
+                            "url": {
+                                "raw": "{{baseUrl}}/users",
+                                "host": [
+                                    "{{baseUrl}}"
+                                ],
+                                "path": [
+                                    "users"
+                                ]
+                            }
+                        },
+                        "status": "OK",
+                        "code": 200,
+                        "_postman_previewlanguage": "json",
+                        "header": [
+                            {
+                                "key": "Host",
+                                "value": "127.0.0.1:8000"
+                            },
+                            {
+                                "key": "Connection",
+                                "value": "close"
+                            },
+                            {
+                                "key": "X-Powered-By",
+                                "value": "PHP/8.2.18"
+                            },
+                            {
+                                "key": "Cache-Control",
+                                "value": "no-cache, private"
+                            },
+                            {
+                                "key": "Date",
+                                "value": "Thu, 25 Apr 2024 18:19:42 GMT"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            },
+                            {
+                                "key": "Access-Control-Allow-Origin",
+                                "value": "*"
+                            }
+                        ],
+                        "cookie": [],
+                        "responseTime": null,
+                        "body": "[\n    {\n        \"id\": 11,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io2@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:13:08.000000Z\",\n        \"updated_at\": \"2024-04-25T18:13:08.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 3,\n                \"user_id\": 11,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:13:08.000000Z\",\n                \"updated_at\": \"2024-04-25T18:13:08.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 12,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io4@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:15:05.000000Z\",\n        \"updated_at\": \"2024-04-25T18:15:05.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 4,\n                \"user_id\": 12,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:15:05.000000Z\",\n                \"updated_at\": \"2024-04-25T18:15:05.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 13,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io5@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:15:55.000000Z\",\n        \"updated_at\": \"2024-04-25T18:15:55.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 5,\n                \"user_id\": 13,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:15:55.000000Z\",\n                \"updated_at\": \"2024-04-25T18:15:55.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 14,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io7@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:16:38.000000Z\",\n        \"updated_at\": \"2024-04-25T18:16:38.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 6,\n                \"user_id\": 14,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:16:38.000000Z\",\n                \"updated_at\": \"2024-04-25T18:16:38.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 15,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io8@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:16:51.000000Z\",\n        \"updated_at\": \"2024-04-25T18:16:51.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 7,\n                \"user_id\": 15,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:16:51.000000Z\",\n                \"updated_at\": \"2024-04-25T18:16:51.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 16,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io234@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:17:19.000000Z\",\n        \"updated_at\": \"2024-04-25T18:17:19.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 8,\n                \"user_id\": 16,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:17:19.000000Z\",\n                \"updated_at\": \"2024-04-25T18:17:19.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 17,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io235@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:17:32.000000Z\",\n        \"updated_at\": \"2024-04-25T18:17:32.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 9,\n                \"user_id\": 17,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:17:32.000000Z\",\n                \"updated_at\": \"2024-04-25T18:17:32.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 18,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io21@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:18:11.000000Z\",\n        \"updated_at\": \"2024-04-25T18:18:11.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 10,\n                \"user_id\": 18,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:18:11.000000Z\",\n                \"updated_at\": \"2024-04-25T18:18:11.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 19,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io1345@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:18:28.000000Z\",\n        \"updated_at\": \"2024-04-25T18:18:28.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 11,\n                \"user_id\": 19,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:18:28.000000Z\",\n                \"updated_at\": \"2024-04-25T18:18:28.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 20,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io19876543@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:19:24.000000Z\",\n        \"updated_at\": \"2024-04-25T18:19:24.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 12,\n                \"user_id\": 20,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:19:24.000000Z\",\n                \"updated_at\": \"2024-04-25T18:19:24.000000Z\"\n            }\n        ]\n    },\n    {\n        \"id\": 21,\n        \"first_name\": \"Jhon\",\n        \"last_name\": \"Snow\",\n        \"email\": \"developer.io13876543@gmail.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2024-04-25T18:19:32.000000Z\",\n        \"updated_at\": \"2024-04-25T18:19:32.000000Z\",\n        \"user_details\": [\n            {\n                \"id\": 13,\n                \"user_id\": 21,\n                \"address\": \"Temp address\",\n                \"created_at\": \"2024-04-25T18:19:32.000000Z\",\n                \"updated_at\": \"2024-04-25T18:19:32.000000Z\"\n            }\n        ]\n    }\n]",
+                        "uid": "18595901-386a2f57-60f5-4eb1-852f-4cd03d59337d"
+                    }
+                ],
+                "uid": "18595901-dc7467f1-1d38-467b-b967-c1071e8297be"
+            },
+            {
+                "name": "Add User",
+                "id": "14199630-4502-447b-836c-da4c9a5468a9",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [
+                        {
+                            "key": "Accept",
+                            "value": "application/json",
+                            "type": "text"
+                        }
+                    ],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\n    \"first_name\" : \"Jhon\",\n    \"last_name\" : \"Snow\",\n    \"email\" : \"developer.io13876543@gmail.com\",\n    \"password\" : \"12345678\",\n    \"address\" : \"Temp address\"\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{baseUrl}}/users",
+                        "host": [
+                            "{{baseUrl}}"
+                        ],
+                        "path": [
+                            "users"
+                        ]
+                    }
+                },
+                "response": [
+                    {
+                        "id": "c34de323-0229-4075-97ad-407ab871bb83",
+                        "name": "Validation Error",
+                        "originalRequest": {
+                            "method": "POST",
+                            "header": [
+                                {
+                                    "key": "Accept",
+                                    "value": "application/json",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\n    \"first_name\" : \"fsd\",\n    \"last_name\" : \"fsd\",\n    \"email\" : \"fsd\",\n    \"password\" : \"fsd\",\n    \"address\" : \"fsd\"\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "{{baseUrl}}/users",
+                                "host": [
+                                    "{{baseUrl}}"
+                                ],
+                                "path": [
+                                    "users"
+                                ]
+                            }
+                        },
+                        "status": "Unprocessable Content",
+                        "code": 422,
+                        "_postman_previewlanguage": "json",
+                        "header": [
+                            {
+                                "key": "Host",
+                                "value": "127.0.0.1:8000"
+                            },
+                            {
+                                "key": "Connection",
+                                "value": "close"
+                            },
+                            {
+                                "key": "X-Powered-By",
+                                "value": "PHP/8.2.18"
+                            },
+                            {
+                                "key": "Cache-Control",
+                                "value": "no-cache, private"
+                            },
+                            {
+                                "key": "Date",
+                                "value": "Thu, 25 Apr 2024 17:53:35 GMT"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            },
+                            {
+                                "key": "Access-Control-Allow-Origin",
+                                "value": "*"
+                            }
+                        ],
+                        "cookie": [],
+                        "responseTime": null,
+                        "body": "{\n    \"message\": \"The email field must be a valid email address. (and 1 more error)\",\n    \"errors\": {\n        \"email\": [\n            \"The email field must be a valid email address.\"\n        ],\n        \"password\": [\n            \"The password field must be at least 8 characters.\"\n        ]\n    }\n}",
+                        "uid": "18595901-c34de323-0229-4075-97ad-407ab871bb83"
+                    }
+                ],
+                "uid": "18595901-14199630-4502-447b-836c-da4c9a5468a9"
+            },
+            {
+                "name": "Update User",
+                "id": "0a52df32-4117-4fda-84f2-f087698c6ccc",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "PUT",
+                    "header": [
+                        {
+                            "key": "Accept",
+                            "value": "application/json",
+                            "type": "text"
+                        }
+                    ],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\n    \"first_name\" : \"Manish\",\n    \"last_name\" : \"Snow\",\n    \"email\" : \"developer.io13@gmail.com\",\n    \"password\" : \"12345678\",\n    \"address\" : \"Temp address\"\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{baseUrl}}/users/12",
+                        "host": [
+                            "{{baseUrl}}"
+                        ],
+                        "path": [
+                            "users",
+                            "12"
+                        ]
+                    }
+                },
+                "response": [
+                    {
+                        "id": "0bacd2d7-d14d-4744-b39d-b66efe8dfcee",
+                        "name": "Validation Error",
+                        "originalRequest": {
+                            "method": "POST",
+                            "header": [
+                                {
+                                    "key": "Accept",
+                                    "value": "application/json",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\n    \"first_name\" : \"fsd\",\n    \"last_name\" : \"fsd\",\n    \"email\" : \"fsd\",\n    \"password\" : \"fsd\",\n    \"address\" : \"fsd\"\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "{{baseUrl}}/users",
+                                "host": [
+                                    "{{baseUrl}}"
+                                ],
+                                "path": [
+                                    "users"
+                                ]
+                            }
+                        },
+                        "status": "Unprocessable Content",
+                        "code": 422,
+                        "_postman_previewlanguage": "json",
+                        "header": [
+                            {
+                                "key": "Host",
+                                "value": "127.0.0.1:8000"
+                            },
+                            {
+                                "key": "Connection",
+                                "value": "close"
+                            },
+                            {
+                                "key": "X-Powered-By",
+                                "value": "PHP/8.2.18"
+                            },
+                            {
+                                "key": "Cache-Control",
+                                "value": "no-cache, private"
+                            },
+                            {
+                                "key": "Date",
+                                "value": "Thu, 25 Apr 2024 17:53:35 GMT"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            },
+                            {
+                                "key": "Access-Control-Allow-Origin",
+                                "value": "*"
+                            }
+                        ],
+                        "cookie": [],
+                        "responseTime": null,
+                        "body": "{\n    \"message\": \"The email field must be a valid email address. (and 1 more error)\",\n    \"errors\": {\n        \"email\": [\n            \"The email field must be a valid email address.\"\n        ],\n        \"password\": [\n            \"The password field must be at least 8 characters.\"\n        ]\n    }\n}",
+                        "uid": "18595901-0bacd2d7-d14d-4744-b39d-b66efe8dfcee"
+                    }
+                ],
+                "uid": "18595901-0a52df32-4117-4fda-84f2-f087698c6ccc"
+            },
+            {
+                "name": "Delete User",
+                "id": "a8010a0e-0eb8-4301-9f91-37fc7b4d8fca",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "DELETE",
+                    "header": [
+                        {
+                            "key": "Accept",
+                            "value": "application/json",
+                            "type": "text"
+                        }
+                    ],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\n    \"id\" : 11\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{baseUrl}}/users/11",
+                        "host": [
+                            "{{baseUrl}}"
+                        ],
+                        "path": [
+                            "users",
+                            "11"
+                        ]
+                    }
+                },
+                "response": [
+                    {
+                        "id": "37cb5f65-faba-459e-98fb-e00d73158e8c",
+                        "name": "Validation Error",
+                        "originalRequest": {
+                            "method": "POST",
+                            "header": [
+                                {
+                                    "key": "Accept",
+                                    "value": "application/json",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\n    \"first_name\" : \"fsd\",\n    \"last_name\" : \"fsd\",\n    \"email\" : \"fsd\",\n    \"password\" : \"fsd\",\n    \"address\" : \"fsd\"\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "{{baseUrl}}/users",
+                                "host": [
+                                    "{{baseUrl}}"
+                                ],
+                                "path": [
+                                    "users"
+                                ]
+                            }
+                        },
+                        "status": "Unprocessable Content",
+                        "code": 422,
+                        "_postman_previewlanguage": "json",
+                        "header": [
+                            {
+                                "key": "Host",
+                                "value": "127.0.0.1:8000"
+                            },
+                            {
+                                "key": "Connection",
+                                "value": "close"
+                            },
+                            {
+                                "key": "X-Powered-By",
+                                "value": "PHP/8.2.18"
+                            },
+                            {
+                                "key": "Cache-Control",
+                                "value": "no-cache, private"
+                            },
+                            {
+                                "key": "Date",
+                                "value": "Thu, 25 Apr 2024 17:53:35 GMT"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            },
+                            {
+                                "key": "Access-Control-Allow-Origin",
+                                "value": "*"
+                            }
+                        ],
+                        "cookie": [],
+                        "responseTime": null,
+                        "body": "{\n    \"message\": \"The email field must be a valid email address. (and 1 more error)\",\n    \"errors\": {\n        \"email\": [\n            \"The email field must be a valid email address.\"\n        ],\n        \"password\": [\n            \"The password field must be at least 8 characters.\"\n        ]\n    }\n}",
+                        "uid": "18595901-37cb5f65-faba-459e-98fb-e00d73158e8c"
+                    }
+                ],
+                "uid": "18595901-a8010a0e-0eb8-4301-9f91-37fc7b4d8fca"
+            }
+        ],
+        "event": [
+            {
+                "listen": "prerequest",
+                "script": {
+                    "id": "2094b4ca-3854-432a-9513-43639b69b836",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                        ""
+                    ]
+                }
+            },
+            {
+                "listen": "test",
+                "script": {
+                    "id": "ed810a2e-2e63-4289-a204-5b0caf955859",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                        ""
+                    ]
+                }
+            }
+        ],
+        "variable": [
+            {
+                "key": "baseUrl",
+                "value": "http://127.0.0.1:8000/api",
+                "type": "string"
+            }
+        ]
+    }
+}
