@@ -9,4 +9,4 @@ use App\Http\Controllers\UserController;
 // })->middleware('auth:sanctum');
 
 
-Route::resource('user', UserController::class);
+Route::resource('users', UserController::class);
