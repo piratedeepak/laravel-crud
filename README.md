@@ -49,4 +49,4 @@ Welcome to our Laravel backend! This backend serves as the foundation for our ap
 
 We have provided a Postman collection to ease the testing of our API endpoints. You can import it into your Postman application.
 
-[Download Postman Collection](placeholder_link)
+[Download Postman Collection](https://raw.githubusercontent.com/piratedeepak/laravel-crud/main/postman.json)
